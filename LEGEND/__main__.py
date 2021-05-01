@@ -70,7 +70,7 @@ I am an anime Themed Group Managing Bot and I will help in managing your group\n
 
 ✪ Make sure you read *INFO* Section Below ✪ \n
 
-𝐌𝐘 𝐆𝐎𝐃 - [SAMPATH](t.me/@ABHI_VILAN)
+𝐌𝐘 𝐆𝐎𝐃 - [SAMPATH](t.me/ABHI_VILAN)
 """
               
 buttons = [
@@ -83,7 +83,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text="Add SAMPATH SIR'S BOT to your group ",
-            url="t.me/@Im_abhi_bot?startgroup=true",
+            url="t.me/Im_abhi_bot?startgroup=true",
         ),
     ],
 ]
@@ -103,9 +103,9 @@ HELP_STRINGS = f"""
 )
 
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
+DONATE_STRING = """Hai, bro to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support me [N](t.me/@ABHI_VILAN,[SAMPATH](t.me/@ABHI_VILAN),"""
+Support me [N](t.me/ABHI_VILAN,[SAMPATH](t.me/ABHI_VILAN),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -299,7 +299,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*⚊❮❮❮❮ ｢  Help  for  {}  module 」❯❯❯❯⚊*\n".format(
+                "*⚊❮❮❮ ｢  Help  for  {}  module 」❯❯❯⚊*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -361,8 +361,8 @@ def LEGEND_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by @ABHI_VILAN.* "
-            f"\n\n 🔥 Join [SUPPORT GROUP](https://t.me/@Smashhackers) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by ABHI_VILAN.* "
+            f"\n\n 🔥 Join [SUPPORT GROUP](https://t.me/Smashhackers) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://im7.ezgif.com/tmp/ezgif-7-698890a6d45d.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
@@ -478,7 +478,7 @@ def LEGEND_about_callback(update, context):
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
             f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
-            f"\n✪ Always try to keep credits, so \n  This hardwork is done by @ABHI_VILAN spending many sleepless nights.. So, Respect it."
+            f"\n✪ Always try to keep credits, so \n  This hardwork is done by ABHI_VILAN spending many sleepless nights.. So, Respect it."
             f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
             f"\n✪ If you need to ask anything about \n  this bot, Go @Smashhackers."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
