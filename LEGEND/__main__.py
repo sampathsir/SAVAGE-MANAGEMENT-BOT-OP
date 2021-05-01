@@ -65,7 +65,7 @@ from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """                   
-Hello there, I'm [SAMPATH 𝐁𝐎𝐓](https://im7.ezgif.com/tmp/ezgif-7-698890a6d45d.jpg)
+Hello there, I'm [SAMPATH 𝐁𝐎𝐓](https://telegra.ph/file/118580f3b920ba38b2f83.jpg)
 I am an anime Themed Group Managing Bot and I will help in managing your group\n
 
 ✪ Make sure you read *INFO* Section Below ✪ \n
@@ -83,14 +83,14 @@ buttons = [
     [
         InlineKeyboardButton(
             text="Add SAMPATH SIR'S BOT to your group ",
-            url="t.me/@ABHI_VILAN?startgroup=true",
+            url="t.me/@Im_abhi_bot?startgroup=true",
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [SAMPATH SIR'S BOT](https://im7.ezgif.com/tmp/ezgif-7-698890a6d45d.jpg)
+*Main Commands :* [SAMPATH SIR'S BOT](https://telegra.ph/file/7a226b252aeeb4146a151.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -105,7 +105,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [N](t.me/@Smashhackers,[SAMPATH](t.me/@ABHI_VILAN),"""
+Support me [N](t.me/@ABHI_VILAN,[SAMPATH](t.me/@ABHI_VILAN),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
