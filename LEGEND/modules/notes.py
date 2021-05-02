@@ -264,7 +264,7 @@ def save(update: Update, context: CallbackContext):
     note_name, text, data_type, content, buttons = get_note_type(msg)
     note_name = note_name.lower()
     if data_type is None:
-        msg.reply_text("Dude, there's no note")
+        msg.reply_text("No notes in this chat!")
         return
 
     sql.add_note_to_db(
@@ -542,7 +542,7 @@ A button can be added to a note by using standard markdown link syntax - the lin
 
 """
 
-__mod_name__ = "Notes ✍️"
+__mod_name__ = "Notes"
 
 GET_HANDLER = CommandHandler("get", cmd_get)
 HASH_GET_HANDLER = MessageHandler(Filters.regex(r"^#[^\s]+"), hash_get)
