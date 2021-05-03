@@ -83,7 +83,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text="Add SAMPATH SIR'S BOT to your group ",
-            url="t.me/gp_help_by_bot?startgroup=true",
+            url="t.me/theunknwonbot?startgroup=true",
         ),
     ],
 ]
@@ -540,7 +540,7 @@ def get_help(update, context):
                     [
                         InlineKeyboardButton(
                             text="Support Chat",
-                            url="https://t.me/@Smashhackers".format(SUPPORT_CHAT),
+                            url="https://t.me/Smashhackers".format(SUPPORT_CHAT),
                         )
                     ],
                 ]
