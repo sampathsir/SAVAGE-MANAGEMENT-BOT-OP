@@ -65,24 +65,24 @@ from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """                   
-Hello there, I'm [SAMPATH 𝐁𝐎𝐓](https://telegra.ph/file/118580f3b920ba38b2f83.jpg)
-I am an anime Themed Group Managing Bot and I will help in managing your group\n
+HELLO EVERYONE I'm [ ɪ'ᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢɪɴɢ ʙᴏᴛ ᴏꜰ ᴜɴᴋɴᴏᴡɴ ᴄᴏᴍᴍᴜɴɪᴛʏ](https://telegra.ph/file/8b723d7b38c729cc6a16a.jpg)
+I CAN HELP BY /help \n
 
-✪ Make sure you read *INFO* Section Below ✪ \n
+✪ ᴍᴀᴋᴇ ꜱᴜʀᴇ ʏᴏᴜ ʀᴇᴀᴅ *ɪɴꜰᴏ* ꜱᴇᴄᴛɪᴏɴ ʙᴇʟᴏᴡ ✪ \n
 
-𝐌𝐘 𝐆𝐎𝐃 - [SAMPATH](t.me/ABHI_VILAN)
+𝐌𝐘 𝐆𝐎𝐃 - [𝐔𝐍𝐊𝐍𝐎𝐖𝐍](t.me/ABHI_VILAN)
 """
               
 buttons = [
     [
-        InlineKeyboardButton(text="INFO ", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text="ɪɴꜰᴏ ", callback_data="aboutmanu_"),
     ],
     [
-        InlineKeyboardButton(text="Help & Commands", callback_data="help_back"),
+        InlineKeyboardButton(text="ʜᴇʟᴘ", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="Add SAMPATH SIR'S BOT to your group ",
+            text="Add SIR'S BOT to your group ",
             url="t.me/theunknwonbot?startgroup=true",
         ),
     ],
@@ -90,7 +90,7 @@ buttons = [
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [SAMPATH SIR'S BOT](https://telegra.ph/file/7a226b252aeeb4146a151.jpg)
+*Main Commands :* [𝐔𝐍𝐊𝐍𝐎𝐖𝐍 𝐂𝐎𝐌𝐌𝐔𝐍𝐈𝐓𝐘 𝐁𝐎𝐓](https://telegra.ph/file/8b723d7b38c729cc6a16a.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -362,7 +362,7 @@ def LEGEND_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by ABHI_VILAN.* "
-            f"\n\n 🔥 Join [SUPPORT GROUP](https://t.me/Smashhackers) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            f"\n\n 🔥 Join [𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏](https://t.me/dengerousbots) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://im7.ezgif.com/tmp/ezgif-7-698890a6d45d.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
@@ -380,7 +380,7 @@ def LEGEND_about_callback(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="❔Help & Commands", callback_data="help_back"
+                            text="Help", callback_data="help_back"
                         )
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
